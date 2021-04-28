@@ -1,0 +1,10 @@
+use Test;
+use HTTP::UserAgent;
+
+my $http = HTTP::UserAgent.new;
+
+my $res = $http.get("https://raku.org/");
+say "{$res.status-line} https://raku.org/";
+
+pass "OK";
+done-testing;

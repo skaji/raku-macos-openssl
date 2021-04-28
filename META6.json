@@ -1,0 +1,26 @@
+{
+  "auth": "cpan:SKAJI",
+  "authors": [
+    "Shoichi Kaji"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "HTTP::UserAgent"
+  ],
+  "description": "blah blah blah",
+  "license": "Artistic-2.0",
+  "name": "Mac::OpenSSL::Test",
+  "perl": "6.d",
+  "provides": {
+    "Mac::OpenSSL::Test": "lib/Mac/OpenSSL/Test.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
